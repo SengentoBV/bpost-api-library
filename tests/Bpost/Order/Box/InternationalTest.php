@@ -8,7 +8,7 @@ use Bpost\BpostApiClient\Bpost\Order\Receiver;
 use Bpost\BpostApiClient\Bpost\Order\Box\Option\Messaging;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class InternationalTest extends \PHPUnit_Framework_TestCase
+class InternationalTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

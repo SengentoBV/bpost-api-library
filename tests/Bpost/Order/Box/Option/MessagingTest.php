@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\Bpost\Order\Box\Option\Messaging;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class MessagingTest extends \PHPUnit_Framework_TestCase
+class MessagingTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

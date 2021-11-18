@@ -4,7 +4,7 @@ use Bpost\BpostApiClient\BpostException;
 use Bpost\BpostApiClient\Common\BasicAttribute\PhoneNumber;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class PhoneNumberTest extends \PHPUnit_Framework_TestCase
+class PhoneNumberTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testValidate()

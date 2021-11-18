@@ -3,7 +3,7 @@ namespace Bpost;
 
 use Bpost\BpostApiClient\Bpost\Labels;
 
-class LabelsTest extends \PHPUnit_Framework_TestCase
+class LabelsTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testCreateFromXML()

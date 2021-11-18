@@ -3,7 +3,7 @@ namespace Bpost;
 
 use Bpost\BpostApiClient\Bpost\Order\Box\Option\AutomaticSecondPresentation;
 
-class AutomaticSecondPresentationTest extends \PHPUnit_Framework_TestCase
+class AutomaticSecondPresentationTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\PugoAddress;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class PugoAddressTest extends \PHPUnit_Framework_TestCase
+class PugoAddressTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document
@@ -59,56 +59,50 @@ class PugoAddressTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expectedDocument, $actualDocument);
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyBoxProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setBox(str_repeat('a', 9));
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyCountryCodeProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setCountryCode(str_repeat('a', 3));
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyLocalityProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setLocality(str_repeat('a', 41));
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyNumberProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setNumber(str_repeat('a', 9));
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyPostalCodeProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setPostalCode(str_repeat('a', 41));
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
-     */
     public function testFaultyStreetNameProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new PugoAddress();
         $address->setStreetName(str_repeat('a', 41));
     }

@@ -3,7 +3,7 @@ namespace Bpost;
 
 use Bpost\BpostApiClient\Bpost\Order\Box\Option\Signature;
 
-class SignatureTest extends \PHPUnit_Framework_TestCase
+class SignatureTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

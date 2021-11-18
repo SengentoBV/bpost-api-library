@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\LogicException;
 
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidDayException;
 
-class BpostInvalidDayExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidDayExceptionTest extends \PHPUnit\Framework\TestCase
 
 {
     public function testGetMessage()

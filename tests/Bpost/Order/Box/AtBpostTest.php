@@ -6,7 +6,7 @@ use Bpost\BpostApiClient\Bpost\Order\Box\National\ShopHandlingInstruction;
 use Bpost\BpostApiClient\Bpost\Order\PugoAddress;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class AtBpostTest extends \PHPUnit_Framework_TestCase
+class AtBpostTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

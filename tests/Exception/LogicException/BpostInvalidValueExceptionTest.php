@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\BpostLogicException;
 
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class BpostInvalidValueExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidValueExceptionTest extends \PHPUnit\Framework\TestCase
 
 {
     public function testGetMessage()

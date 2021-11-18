@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\LogicException;
 
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class BpostInvalidLengthExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidLengthExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

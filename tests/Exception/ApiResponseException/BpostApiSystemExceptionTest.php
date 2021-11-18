@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\BpostApiResponseException;
 
 use Bpost\BpostApiClient\Exception\BpostApiResponseException\BpostApiSystemException;
 
-class BpostApiSystemExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostApiSystemExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\BpostApiResponseException;
 
 use Bpost\BpostApiClient\Exception\BpostApiResponseException\BpostInvalidSelectionException;
 
-class BpostInvalidSelectionExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidSelectionExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

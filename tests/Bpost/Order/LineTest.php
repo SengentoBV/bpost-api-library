@@ -3,7 +3,7 @@ namespace Bpost;
 
 use Bpost\BpostApiClient\Bpost\Order\Line;
 
-class LineTest extends \PHPUnit_Framework_TestCase
+class LineTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

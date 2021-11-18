@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\BpostException;
 use Bpost\BpostApiClient\Common\ValidatedValue\LabelFormat;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class LabelFormatTest extends \PHPUnit_Framework_TestCase
+class LabelFormatTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testValidate()

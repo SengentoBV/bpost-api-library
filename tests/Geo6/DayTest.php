@@ -5,7 +5,7 @@ namespace Geo6;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidDayException;
 use Bpost\BpostApiClient\Geo6\Day;
 
-class DayTest extends \PHPUnit_Framework_TestCase
+class DayTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Tests Day::createFromXml()

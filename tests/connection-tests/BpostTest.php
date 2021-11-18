@@ -15,7 +15,7 @@ use \Bpost\BpostApiClient\Bpost\Order\Sender;
 /**
  * test case.
  */
-class BpostTest extends \PHPUnit_Framework_TestCase
+class BpostTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Bpost

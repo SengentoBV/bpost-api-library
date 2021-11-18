@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\BpostApiResponseException;
 
 use Bpost\BpostApiClient\Exception\BpostApiResponseException\BpostTaxipostLocatorException;
 
-class BpostTaxipostLocatorExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostTaxipostLocatorExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {
