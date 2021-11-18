@@ -1,12 +1,10 @@
 # bpost API client
 
-[![Build Status](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library)
-[![Latest Stable Version](https://poser.pugx.org/antidot-be/bpost-api-library/v/stable)](https://packagist.org/packages/antidot-be/bpost-api-library)
-[![Latest Unstable Version](https://poser.pugx.org/antidot-be/bpost-api-library/v/unstable)](https://packagist.org/packages/antidot-be/bpost-api-library)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library)
-[![Code Coverage](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Antidot-be/bpost-api-library)
-[![Total Downloads](https://poser.pugx.org/antidot-be/bpost-api-library/downloads)](https://packagist.org/packages/antidot-be/bpost-api-library)
-[![License](https://poser.pugx.org/antidot-be/bpost-api-library/license)](https://packagist.org/packages/antidot-be/bpost-api-library)
+[![Latest Stable Version](http://poser.pugx.org/sengentobv/bpost-api-library/v)](https://packagist.org/packages/sengentobv/bpost-api-library) 
+[![Total Downloads](http://poser.pugx.org/sengentobv/bpost-api-library/downloads)](https://packagist.org/packages/sengentobv/bpost-api-library) 
+[![Latest Unstable Version](http://poser.pugx.org/sengentobv/bpost-api-library/v/unstable)](https://packagist.org/packages/sengentobv/bpost-api-library) 
+[![License](http://poser.pugx.org/sengentobv/bpost-api-library/license)](https://packagist.org/packages/sengentobv/bpost-api-library) 
+[![PHP Version Require](http://poser.pugx.org/sengentobv/bpost-api-library/require/php)](https://packagist.org/packages/sengentobv/bpost-api-library)
 
 ## About
 
@@ -15,7 +13,7 @@ _bpost API library_ is a PHP library which permit to your PHP application to com
 ## Installation
 
 ```bash
-composer require antidot-be/bpost-api-library
+composer require sengentobv/bpost-api-library
 ```
 
 ## Usages
@@ -236,11 +234,6 @@ $url = $geo6->getServicePointPageUrl(
 );
 ```
 
-## Sites using this class
-
-* [Each site based on the Web Retail Shop Platform](http://www.webretailcompany.be)
-* [The bpost plugin for WordPress](https://wordpress.org/plugins/bpost-shipping)
-
 ## Would like contribute ?
 
-You can read the [CONTRIBUTING.md](https://github.com/Antidot-be/bpost-api-library/blob/master/CONTRIBUTING.md) file
+You can read the [CONTRIBUTING.md](https://github.com/SengentoBV/bpost-api-library/blob/master/CONTRIBUTING.md) file
