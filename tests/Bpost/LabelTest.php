@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Label;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class LabelTest extends \PHPUnit_Framework_TestCase
+class LabelTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test validation in the setters

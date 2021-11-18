@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\Box\OpeningHour\Day;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class DayTest extends \PHPUnit_Framework_TestCase
+class DayTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

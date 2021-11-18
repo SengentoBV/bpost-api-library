@@ -9,7 +9,7 @@ use Bpost\BpostApiClient\Bpost\Order\Receiver;
 use Bpost\BpostApiClient\Bpost\Order\Sender;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class BoxTest extends \PHPUnit_Framework_TestCase
+class BoxTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

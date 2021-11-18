@@ -4,7 +4,7 @@ namespace Geo6;
 
 use Bpost\BpostApiClient\Geo6\Service;
 
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Tests Service::createFromXml()

@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\Bpost\Order\Box\CustomsInfo\CustomsInfo;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class CustomsInfoTest extends \PHPUnit_Framework_TestCase
+class CustomsInfoTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

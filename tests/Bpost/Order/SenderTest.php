@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\Bpost\Order\Address;
 use Bpost\BpostApiClient\Bpost\Order\Sender;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class SenderTest extends \PHPUnit_Framework_TestCase
+class SenderTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

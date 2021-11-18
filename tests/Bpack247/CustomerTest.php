@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\Bpack247\Customer;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 use Bpost\BpostApiClient\Exception\XmlException\BpostXmlNoUserIdFoundException;
 
-class CustomerTest extends \PHPUnit_Framework_TestCase
+class CustomerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

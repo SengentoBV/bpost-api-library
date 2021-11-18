@@ -3,7 +3,7 @@
 use Bpost\BpostApiClient\Bpost\Order\Box\National\ParcelLockerReducedMobilityZone;
 use Bpost\BpostApiClient\Bpost\Order\Box\National\Unregistered;
 
-class UnregisteredTest extends \PHPUnit_Framework_TestCase
+class UnregisteredTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

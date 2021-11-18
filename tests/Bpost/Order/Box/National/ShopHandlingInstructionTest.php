@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\Bpost\Order\Box\National;
 use Bpost\BpostApiClient\BpostException;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class ShopHandlingInstructionTest extends \PHPUnit_Framework_TestCase
+class ShopHandlingInstructionTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testValidate()

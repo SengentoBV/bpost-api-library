@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\XmlException;
 
 use Bpost\BpostApiClient\Exception\XmlException\BpostXmlNoReferenceFoundException;
 
-class BpostXmlNoReferenceFoundExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostXmlNoReferenceFoundExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

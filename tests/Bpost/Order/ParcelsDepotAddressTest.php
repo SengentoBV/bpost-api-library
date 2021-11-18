@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\ParcelsDepotAddress;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class ParcelsDepotAddressTest extends \PHPUnit_Framework_TestCase
+class ParcelsDepotAddressTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document
@@ -60,61 +60,67 @@ class ParcelsDepotAddressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setBox(str_repeat('a', 9));
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyCountryCodeProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setCountryCode(str_repeat('a', 3));
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyLocalityProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setLocality(str_repeat('a', 41));
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyNumberProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setNumber(str_repeat('a', 9));
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyPostalCodeProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setPostalCode(str_repeat('a', 41));
     }
 
     /**
-     * @expectedException \Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException
      * @throws BpostInvalidLengthException
      */
     public function testFaultyStreetNameProperties()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException::class);
+
         $address = new ParcelsDepotAddress();
         $address->setStreetName(str_repeat('a', 41));
     }

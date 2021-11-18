@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\XmlException;
 
 use Bpost\BpostApiClient\Exception\XmlException\BpostXmlInvalidItemException;
 
-class BpostXmlInvalidItemExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostXmlInvalidItemExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

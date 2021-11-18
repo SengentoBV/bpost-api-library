@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\XmlException;
 
 use Bpost\BpostApiClient\Exception\XmlException\BpostXmlNoUserIdFoundException;
 
-class BpostXmlNoUserIdFoundExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostXmlNoUserIdFoundExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

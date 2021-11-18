@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\Bpack247\test;
 
 use Bpost\BpostApiClient\Bpack247;
 
-class Bpack247Test extends \PHPUnit_Framework_TestCase
+class Bpack247Test extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Bpack247

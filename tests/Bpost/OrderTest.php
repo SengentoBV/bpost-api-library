@@ -12,7 +12,7 @@ use Bpost\BpostApiClient\Bpost\Order\Line;
 use Bpost\BpostApiClient\Bpost\Order\PugoAddress;
 use Bpost\BpostApiClient\Bpost\Order\Sender;
 
-class OrderTest extends \PHPUnit_Framework_TestCase
+class OrderTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testToXml()
@@ -82,11 +82,10 @@ class OrderTest extends \PHPUnit_Framework_TestCase
         $this->assertSame($this->getCreateOrderXml(), $document->saveXML());
     }
 
-    /**
-     * @expectedException \Bpost\BpostApiClient\Exception\XmlException\BpostXmlNoReferenceFoundException
-     */
     public function testCreateFromXmlWithException()
     {
+        $this->expectException(\Bpost\BpostApiClient\Exception\XmlException\BpostXmlNoReferenceFoundException::class);
+
         Order::createFromXML(new \SimpleXMLElement($this->getFetchOrderWithReferenceXml()));
     }
 

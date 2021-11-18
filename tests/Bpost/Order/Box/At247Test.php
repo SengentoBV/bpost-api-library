@@ -7,7 +7,7 @@ use Bpost\BpostApiClient\Bpost\Order\ParcelsDepotAddress;
 use Bpost\BpostApiClient\Common\BasicAttribute\Language;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class At247Test extends \PHPUnit_Framework_TestCase
+class At247Test extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

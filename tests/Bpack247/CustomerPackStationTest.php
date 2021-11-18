@@ -3,7 +3,7 @@ namespace Bpost\Bpack;
 
 use Bpost\BpostApiClient\Bpack247\CustomerPackStation;
 
-class CustomerPackStationTest extends \PHPUnit_Framework_TestCase
+class CustomerPackStationTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

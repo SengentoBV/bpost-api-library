@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\BpostLogicException;
 
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidPatternException;
 
-class BpostInvalidPatternExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidPatternExceptionTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testGetMessage()

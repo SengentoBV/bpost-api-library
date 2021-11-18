@@ -20,14 +20,12 @@ class ValidatedValueFake extends ValidatedValue
     }
 }
 
-class ValidatedValueTest extends \PHPUnit_Framework_TestCase
+class ValidatedValueTest extends \PHPUnit\Framework\TestCase
 {
-
-    /**
-     * @expectedException Bpost\BpostApiClient\Exception\BpostLogicException
-     */
     public function testGetValue()
     {
+        $this->expectException(Bpost\BpostApiClient\Exception\BpostLogicException::class);
+
         $fake = new ValidatedValueFake('qsd');
         $this->assertSame('qsd', $fake->getValue());
 

@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\Box\Option\Insurance;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class InsuranceTest extends \PHPUnit_Framework_TestCase
+class InsuranceTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

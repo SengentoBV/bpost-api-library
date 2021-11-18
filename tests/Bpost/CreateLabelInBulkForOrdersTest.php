@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\CreateLabelInBulkForOrders;
 use Bpost\BpostApiClient\Common\ValidatedValue\LabelFormat;
 
-class CreateLabelInBulkForOrdersTest extends \PHPUnit_Framework_TestCase
+class CreateLabelInBulkForOrdersTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testGetXml()

@@ -1,7 +1,7 @@
 <?php
 namespace Bpost\BpostApiClient\Bpost\Label;
 
-class BarcodeTest extends \PHPUnit_Framework_TestCase
+class BarcodeTest extends \PHPUnit\Framework\TestCase
 {
     private function getBarcodeXml()
     {

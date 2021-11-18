@@ -4,7 +4,7 @@ namespace Bpost\BpostApiClient\test\Exception\LogicException;
 
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidWeightException;
 
-class BpostInvalidWeightExceptionTest extends \PHPUnit_Framework_TestCase
+class BpostInvalidWeightExceptionTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetMessage()
     {

@@ -4,7 +4,7 @@ use Bpost\BpostApiClient\BpostException;
 use Bpost\BpostApiClient\Common\BasicAttribute\Language;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class LanguageTest extends \PHPUnit_Framework_TestCase
+class LanguageTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testValidate()
